@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.app {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+ul {
+  margin-top: 1rem;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+li {
+  list-style: none;
+}
+
+tbody tr {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
